@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* MediGraph AI Theme - Teal, Cyan, Blue, Purple */
+    --background: 200 30% 5%;
+    --foreground: 200 10% 95%;
+    --card: 200 25% 10%;
+    --card-foreground: 200 10% 95%;
+    --primary: 186 100% 50%;
+    --primary-foreground: 200 30% 5%;
+    --secondary: 200 100% 40%;
+    --secondary-foreground: 200 10% 95%;
+    --muted: 200 20% 20%;
+    --muted-foreground: 200 10% 60%;
+    --accent: 270 91% 65%;
+    --accent-foreground: 200 30% 5%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 161 100% 41%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 0%;
+    --border: 200 20% 18%;
+    --input: 200 20% 18%;
+    --ring: 186 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted)) transparent;
+  }
+}

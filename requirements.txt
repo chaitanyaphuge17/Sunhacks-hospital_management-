@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymongo
+neo4j
+langchain
+langgraph
+langchain-groq
+pydantic-settings
+python-dotenv

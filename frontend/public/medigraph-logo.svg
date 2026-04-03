@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heart shape with gradient background -->
+  <defs>
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrowGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Heart outline -->
+  <path d="M100 160C100 160 30 110 30 70C30 50 45 35 60 35C75 35 85 45 100 60C115 45 125 35 140 35C155 35 170 50 170 70C170 110 100 160 100 160Z" 
+        fill="url(#heartGradient)" opacity="0.3" stroke="url(#heartGradient)" stroke-width="2"/>
+  
+  <!-- Heart filled -->
+  <path d="M100 155C100 155 35 110 35 70C35 52 48 40 62 40C74 40 84 48 100 62C116 48 126 40 138 40C152 40 165 52 165 70C165 110 100 155 100 155Z" 
+        fill="url(#heartGradient)"/>
+  
+  <!-- ECG/Heartbeat line -->
+  <path d="M65 95 L80 95 L85 80 L90 110 L95 100 L105 100 L110 75 L115 115 L125 95 L135 95" 
+        stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Upward arrow -->
+  <path d="M145 120 L165 100 L165 125" 
+        fill="none" stroke="url(#arrowGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M155 90 L165 100 L155 110" 
+        fill="none" stroke="url(#arrowGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- AI circuit dots -->
+  <circle cx="75" cy="70" r="3" fill="#7C3AED" opacity="0.7"/>
+  <circle cx="95" cy="55" r="3" fill="#7C3AED" opacity="0.7"/>
+  <circle cx="115" cy="70" r="3" fill="#7C3AED" opacity="0.7"/>
+</svg>
